@@ -2,6 +2,7 @@
 Testcase illustrating a bug with multiple cookies in supertest with jest.
 
 ## demonstration
+First, run the server via `npm start`.
 
 When run standalone, both superagent and supertest parse the two `set-cookie` headers into separate items in an array.
 ```bash
