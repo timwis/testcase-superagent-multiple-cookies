@@ -1,0 +1,19 @@
+{
+  "name": "testcase-superagent-multiple-cookies",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "timwis <tim@timwis.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "superagent": "^3.8.2",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2"
+  }
+}
